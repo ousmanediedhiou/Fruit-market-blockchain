@@ -41,3 +41,9 @@ Projet académique réalisé dans le cadre d’un travail pratique sur la chaîn
 ## Sécurité
 
 Les secrets, clés privées et configurations locales ne sont pas inclus. Créer un fichier `.env` local pour les paramètres nécessaires, sans jamais le commiter. Ne jamais réutiliser une clé privée ayant été partagée.
+
+## 🎬 Démonstration vidéo
+
+Une vidéo de démonstration présente le fonctionnement de **Fruit Market**, notamment l'interface React, la connexion avec MetaMask et les interactions avec les contrats intelligents sur Ethereum Sepolia.
+
+**[▶ Voir la démonstration de Fruit Market](https://github.com/ousmanediedhiou/Fruit-market-blockchain/releases/tag/v1.0.0)**
