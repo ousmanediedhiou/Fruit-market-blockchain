@@ -1,0 +1,43 @@
+{
+  "name": "chaintp3",
+  "version": "1.0.0",
+  "description": "TP3 - Fruit Market DApp",
+  "private": true,
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "check:sepolia": "hardhat run scripts/check-sepolia.js --network sepolia",
+    "verify:upgrade": "hardhat run scripts/verify-upgrade.js --network sepolia",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "upgrade:localhost": "hardhat run scripts/upgrade.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "upgrade:sepolia": "hardhat run scripts/upgrade.js --network sepolia",
+    "frontend:dev": "vite",
+    "frontend:build": "vite build",
+    "frontend:preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@openzeppelin/contracts-upgradeable": "^4.9.6",
+    "@openzeppelin/hardhat-upgrades": "^3.9.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "chai": "^4.5.0",
+    "dotenv": "^17.4.0",
+    "hardhat": "^2.28.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
